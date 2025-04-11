@@ -3865,7 +3865,7 @@ h1.post__title {
 }
 @media (max-width: 767px) {
 	.aximo-hero-content2 h1 {
-		font-size: 48px;
+		font-size: 36px;
 	}
 }
 .aximo-hero-content2 p {
@@ -3874,7 +3874,8 @@ h1.post__title {
 }
 @media (max-width: 991px) {
 	.aximo-hero-content2 p {
-		font-size: 18px;
+		font-size: 14px;
+		line-height: 22px;
 	}
 }
 
