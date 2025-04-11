@@ -2127,11 +2127,12 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	.aximo-sidemenu-wraper {
 		display: none;
 	}
-}
-@media (max-width: 767px) {
 	header.aximo-header-section {
 		width: 90%;
 	}
+}
+@media (max-width: 767px) {
+	
 }
 .aximo-footer-top .aximo-default-content {
 	margin-right: 50px;
