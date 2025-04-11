@@ -29,8 +29,8 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 
 export const metadata = {
-  title: "Aximo || Responsive Next.js Template - Home Two",
-  description: "Aximo || Responsive Next.js Template Home Two",
+  title: "Digital Marketing & SEO Agency | The Online Presence",
+  description: "Top SEO agency for local SEO, website SEO optimization & PPC. Get expert SEO services near you from the best digital marketing & online marketing agency.",
 };
 
 export default function HomeTwoLayout({ children }) {
