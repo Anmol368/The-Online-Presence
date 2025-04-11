@@ -1067,3 +1067,11 @@ a.log-in-btn:hover:after {
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+
+/* added by anmol */
+@media (max-width: 991px) {
+	.aximo-go-top {
+		right: 6%;
+	}
+}
+

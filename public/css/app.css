@@ -3743,7 +3743,7 @@ h1.post__title {
 	display: flex;
 }
 .flex-properties {
-	width: 50%;
+	max-width: 50%;
 	align-items: center;
 	justify-content: center;
 }
@@ -3792,6 +3792,9 @@ h1.post__title {
 	}
 	.hero-clip-text-digital {
 		font-size: 120px;
+	}
+	.flex-properties {
+		max-width: 90%;
 	}
 }
 @media (max-width: 767px) {
