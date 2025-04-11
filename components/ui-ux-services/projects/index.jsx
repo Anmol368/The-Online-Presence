@@ -1,6 +1,6 @@
 import FadeInStagger from "@/components/animation/FadeInStagger";
 import Image from "next/image";
-import Project1Img from "../../../public/images/project/project1/image.jpg";
+import Project1Img from "../../../public/images/project/project1/image.png";
 import Project2Img from "../../../public/images/project/project2/image1.png";
 import Project3Img from "../../../public/images/project/project3/image2.png";
 import Project4Img from "../../../public/images/project/project4/image3.png";
