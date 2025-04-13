@@ -2193,9 +2193,11 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 }
 
 .aximo-copywright.one {
+
 	text-align: right;
 }
 .aximo-copywright.one p {
+	font-size: 16px;
 	color: #999;
 }
 .aximo-copywright.two p {
@@ -9199,7 +9201,7 @@ a.aximo-connect-login img {
 	right: -80px;
 }
 .aximo-title-icon img {
-	max-width: 50px;
+	width: 60px;
 }
 @media (max-width: 1199px) {
 	.aximo-title-icon {
