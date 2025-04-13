@@ -3,10 +3,10 @@ export const menuItemsData = [
 		title: "Home",
 		url: "/",
 	},
-	{
-		title: "About",
-		url: "about-us",
-	},
+	// {
+	// 	title: "About",
+	// 	url: "about-us",
+	// },
 	{
 		title: "Pricing",
 		url: "#",
