@@ -16,9 +16,9 @@ const testimonialsData = [
 		id: crypto.randomUUID(),
 		rating: 5,
 		content:
-			"We have benefitted greatly from working with Tony and theonlinepresence.com. Tony runs a very professional operation, and Tony is personally involved in all aspects of it. Theonlinepresence.com has helped us take the marketing aspect of our business to a higher level. We recommend using theonlinepresence.com to get your business name out there for the whole world to see, as well as your local working area.",
-		author: "Arnie Castro",
-		designation: "One of the client's",
+			"The results from The Online Presence have been outstanding – a definite 5-star experience! Before working with them, our practice website, ACES Psychiatry (acespsychiatry.com), was buried around page 19 of search results – basically invisible to potential clients searching for psychiatric services in Orlando. The Online Presence implemented their SEO strategies, and the results were remarkable. Our website quickly climbed the rankings, and now ACES Psychiatry consistently appears on the first or second page for key searches. Moving from page 19 to the top pages is a huge improvement! This increased visibility is a game-changer, especially in a competitive area like Lake Nona. Being found easily online is crucial for connecting with the children, adolescents, and adults who need our psychiatric services. Their SEO expertise delivered tangible, significant results. If your website is buried in search results, I highly recommend The Online Presence. They were instrumental in boosting our online visibility. Thank you!",
+		author: "Dr. Ishdeep Narang",
+		designation: "Founder, ACES Psychiatry, Orlando FL",
 		img: Thumb2Img,
 	},
 	{

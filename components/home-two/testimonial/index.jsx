@@ -4,7 +4,6 @@ import Star2Img from "../../../public/images/v1/star2.png";
 import Thumb1Img from "../../../public/images/v1/t_thumb1.png";
 import Thumb2Img from "../../../public/images/v1/t_thumb2.png";
 import Thumb3Img from "../../../public/images/v1/t_thumb3.png";
-import Thumb4Img from "../../../public/images/v1/t_thumb4.png";
 import TestimonialCard from "./TestimonialCard";
 
 const testimonialsData = [
@@ -17,16 +16,6 @@ const testimonialsData = [
 		author: "Don Ward | ",
 		designation: "Owner, Taylor tasting tours",
 		img: Thumb1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		rating: 5,
-		title: "Innovative and professional",
-		description:
-			"We have benefitted greatly from working with Tony and theonlinepresence.com. Tony runs a very professional operation, and Tony is personally involved in all aspects of it. Theonlinepresence.com has helped us take the marketing aspect of our business to a higher level. We recommend using theonlinepresence.com to get your business name out there for the whole world to see, as well as your local working area.",
-		author: "Arnie Castro | ",
-		designation: "One of the client's",
-		img: Thumb3Img,
 	},
 	{
 		id: crypto.randomUUID(),
@@ -47,7 +36,7 @@ const testimonialsData = [
 
 		author: "Dr. Ishdeep Narang | ",
 		designation: "Founder, ACES Psychiatry, Orlando FL",
-		img: Thumb4Img,
+		img: Thumb3Img,
 	},
 ];
 
