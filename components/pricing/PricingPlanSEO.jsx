@@ -132,7 +132,7 @@ const pricingPlanDataMLB = [
       { id: 1, value: 1499 },
       {
         id: 2,
-        value: 1299,
+        value: 1599,
       },
     ],
     description:
