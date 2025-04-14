@@ -79,36 +79,36 @@ export const menuItemsData = [
 		submenu: [
 			{
 				title: "Portfolio",
-				url: "#",
-				submenu: [
-					{
-						title: "Portfolio One Column",
-						url: "portfolio-one",
-					},
-					{
-						title: "Portfolio Two Column",
-						url: "portfolio-two",
-					},
-					{
-						title: "Single Portfolio",
-						url: "single-portfolio",
-					},
-				],
+				url: "portfolio",
+				// submenu: [
+				// 	{
+				// 		title: "Portfolio One Column",
+				// 		url: "portfolio-one",
+				// 	},
+				// 	{
+				// 		title: "Portfolio Two Column",
+				// 		url: "portfolio-two",
+				// 	},
+				// 	{
+				// 		title: "Single Portfolio",
+				// 		url: "single-portfolio",
+				// 	},
+				// ],
 			},
-			{
-				title: "Team",
-				url: "#",
-				submenu: [
-					{
-						title: "Team",
-						url: "team",
-					},
-					{
-						title: "Team Details",
-						url: "single-team",
-					},
-				],
-			},
+			// {
+			// 	title: "Team",
+			// 	url: "#",
+			// 	submenu: [
+			// 		{
+			// 			title: "Team",
+			// 			url: "team",
+			// 		},
+			// 		{
+			// 			title: "Team Details",
+			// 			url: "single-team",
+			// 		},
+			// 	],
+			// },
 			{
 				title: "Testimonial",
 				url: "testimonial",

@@ -299,7 +299,7 @@ function PricingPlan({ title }) {
               key={plan.id}
               index={index}
             >      
-              <PricingCardSEOMPB plan={plan} frequency={frequency} />
+              <PricingCardSEOMLB plan={plan} frequency={frequency} />
         
             </FadeInStagger>
           ))) : activeTab === "tab3" ? ( pricingPlanDataMRB.map((plan, index) => (
@@ -308,7 +308,7 @@ function PricingPlan({ title }) {
               key={plan.id}
               index={index}
             >      
-              <PricingCardSEOMPB plan={plan} frequency={frequency} />
+              <PricingCardSEOMRB plan={plan} frequency={frequency} />
         
             </FadeInStagger>
           ))) : ""}

@@ -29,8 +29,8 @@ import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const metadata = {
-  title: "Aximo || Responsive Next.js Template - Home Three",
-  description: "Aximo || Responsive Next.js Template Home Three",
+  title: "SEO Optimization & PPC Services USA",
+  description: "Enhance your online visibility with expert SEO services: local SEO, technical SEO, keyword optimization, PPC management, and digital marketing strategies.",
 };
 
 export default function HomeThreeLayout({ children }) {

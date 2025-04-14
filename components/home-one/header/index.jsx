@@ -87,12 +87,12 @@ function Header() {
 											<DropdownItem url="single-portfolio">Portfolio Details</DropdownItem>
 										</Dropdown>
 									</DropdownItem> */}
-									<DropdownItem dropdown title={"Team"}>
+									{/* <DropdownItem dropdown title={"Team"}>
 										<Dropdown noShape>
 											<DropdownItem url="team">Team</DropdownItem>
 											<DropdownItem url="single-team">Team Details</DropdownItem>
 										</Dropdown>
-									</DropdownItem>
+									</DropdownItem> */}
 									<DropdownItem url="testimonial">Testimonial</DropdownItem>
 									{/* <DropdownItem url="faq">FAQ</DropdownItem> */}
 									{/* <DropdownItem url="error-page">Error Page</DropdownItem> */}

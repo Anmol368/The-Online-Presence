@@ -13,39 +13,40 @@ const testimonialsData = [
 		rating: 5,
 		title: "Super customer service!",
 		description:
-			"Excellent customer service and I was really impressed and happy with my purchase especially as it was a last minute order which got to me in time, and when it arrived I was very happy with the design and size and so was the recipient.",
-		author: "William Jack",
-		designation: "Founder@XYZ",
+			"I have worked with them since October 2023 .they have redone my website and are currently performing some SEO work. They have used the latest technology to make vast improvements for my web site. It looks great. They have been exceptionally responsive to my requests and continue to keep me abreast of all updates and Tweeks. I look forward to a long business relationship with them.",
+		author: "Don Ward | ",
+		designation: "Owner, Taylor tasting tours",
 		img: Thumb1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		rating: 4,
-		title: "Exceptional creativity and vision",
-		description:
-			"Working Mthemeus was a game-changer for our brand. Their exceptional creativity & vision breathed new life into our visual. The logo they perfectly captures our essence & has become instantly recognizable. We couldn't be happier the results!",
-		author: "Smith Align",
-		designation: "Businessman",
-		img: Thumb2Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 5,
 		title: "Innovative and professional",
 		description:
-			"I can't say enough good things about them. Their team is not only incredibly talented but also highly professional. They listened to our ideas and brought to life in ways we couldn't have imagined. Their innovative approach and dedication to our project.",
-		author: "Smith Align",
-		designation: "Milano Joe",
+			"We have benefitted greatly from working with Tony and theonlinepresence.com. Tony runs a very professional operation, and Tony is personally involved in all aspects of it. Theonlinepresence.com has helped us take the marketing aspect of our business to a higher level. We recommend using theonlinepresence.com to get your business name out there for the whole world to see, as well as your local working area.",
+		author: "Arnie Castro | ",
+		designation: "One of the client's",
 		img: Thumb3Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 4,
-		title: "Transformed our brand",
+		title: "Exceptional creativity and vision",
 		description:
-			"Our partnership with Mthemeus transformed our brand from ordinary to extraordinary. Their branding expertise and design work elevated our marketing materials to a whole new level. Our customers have taken notice, and boost in brand recognition.",
-		author: "Danial Mark",
-		designation: "Marketing Director",
+			"I was looking for someone to put me on the internet map, so to speak… and I’m so glad I found Tony and the online presence. I was told to be patient, because it takes around 3 months to really see the difference and now my Enquiries and bookings have more than doubled. I couldn’t be happier with my website and the SEO service Tony and his team offer me. Best thing is there’s always someone to speak to and they deal with any of my questions or queries immediately.",
+		author: "Marnie Spicer | ",
+		designation: "One of the client's",
+		img: Thumb2Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		rating: 4,
+		title: "Transformed Our Online Visibility - From Page 19 to the Top!",
+		description:
+			"The results from The Online Presence have been outstanding – a definite 5-star experience! Before working with them, our practice website, ACES Psychiatry (acespsychiatry.com), was buried around page 19 of search results – basically invisible to potential clients searching for psychiatric services in Orlando. The Online Presence implemented their SEO strategies, and the results were remarkable. Our website quickly climbed the rankings, and now ACES Psychiatry consistently appears on the first or second page for key searches. Moving from page 19 to the top pages is a huge improvement! This increased visibility is a game-changer, especially in a competitive area like Lake Nona. Being found easily online is crucial for connecting with the children, adolescents, and adults who need our psychiatric services. Their SEO expertise delivered tangible, significant results. If your website is buried in search results, I highly recommend The Online Presence. They were instrumental in boosting our online visibility. Thank you!",
+
+		author: "Dr. Ishdeep Narang | ",
+		designation: "Founder, ACES Psychiatry, Orlando FL",
 		img: Thumb4Img,
 	},
 ];

@@ -27,10 +27,14 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
+
+
 export const metadata = {
-	title: "Aximo || Responsive Next.js Template - Home Five",
-	description: "Aximo || Responsive Next.js Template Home Five",
+	title: "Virtual Assistant Services | Task Management & Support",
+	description: "Enhance your business operations with expert virtual assistant services. Task management, scheduling, customer support, and more to streamline your workflow.",
 };
+
+
 // className={`${syne.variable} ${arimo.variable} ${bricolage_grotesque.variable} ${familjen_grotesk.variable} ${libre_baskerville.variable} ${playfair_display.variable} ${ClashGroteskSemibold.variable} ${inter.variable}`}
 export default function HomeFiveLayout({ children }) {
 	return (

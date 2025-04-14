@@ -29,8 +29,8 @@ import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const metadata = {
-	title: "Aximo || Responsive Next.js Template - Home Six",
-	description: "Aximo || Responsive Next.js Template Home Six",
+	title: "Professional UI/UX Design Services | Enhance User Experience",
+	description: "Elevate your digital presence with our expert UI/UX design services, including user research, wireframing, prototyping, and usability testing.​",
 };
 
 export default function HomeSixLayout({ children }) {

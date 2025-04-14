@@ -29,8 +29,8 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 
 export const metadata = {
-  title: "Digital Marketing & SEO Agency | The Online Presence",
-  description: "Top SEO agency for local SEO, website SEO optimization & PPC. Get expert SEO services near you from the best digital marketing & online marketing agency.",
+  title: "Expert SEO & Digital Marketing Agency USA | The Online Presence",
+  description: "Best SEO services & digital marketing agency in the USA. Local SEO, PPC, SEM, web design & content optimize your business online today!",
 };
 
 export default function HomeTwoLayout({ children }) {

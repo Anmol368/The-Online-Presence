@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import CheckImg from "../../public/images/icon/check.svg";
+import BestSeller from "../../public/images/icon/best-seller.png";
 function PricingCard({ plan: { title, description, description2, price, features, highlighted }, frequency }) {
 	return (
-		<div className="aximo-pricing-wrap2">
+		<div className={`aximo-pricing-wrap2 ${highlighted && "highlighted-pricing-card"}`}>
+			{highlighted && <Image className="best-seller-img" src={BestSeller} alt="best seller" />}
 			<div className="aximo-pricing-header2">
 				<h5>{title}</h5>
 			</div>

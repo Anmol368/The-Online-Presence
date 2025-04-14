@@ -14,6 +14,12 @@ import Team7Img from "../../../public/images/team/team7.png";
 import Team8Img from "../../../public/images/team/team8.png";
 import Team9Img from "../../../public/images/team/team9.png";
 
+
+export const metadata = {
+	title: "Best SEO & Digital Marketing Team | Meet Our Experts",
+	description: "Meet our team of SEO strategists, PPC specialists, content marketers, and UI/UX experts driving digital growth and high-performing marketing campaigns.",
+};
+
 const teamsData = [
   {
     id: crypto.randomUUID(),
