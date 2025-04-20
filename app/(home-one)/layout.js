@@ -23,6 +23,8 @@ import Footer from "@/components/home-one/footer";
 import Header from "@/components/home-one/header";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
+import ToasterM from "@/components/ToasterM/ToasterM";
+
 // main css
 import "../../public/css/app.css";
 import "../../public/css/main.css";
@@ -33,14 +35,17 @@ export const metadata = {
   description: "Best SEO services & digital marketing agency in the USA. Local SEO, PPC, SEM, web design & content optimize your business online today!",
 };
 
+
 export default function HomeTwoLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} ${clashGroteskSemibold.variable}`}>
+        
         <ImportBsJS />
         <Header />
         {children}
         <Footer />
+        <ToasterM />
         <ScrollToTop />
       </body>
     </html>
