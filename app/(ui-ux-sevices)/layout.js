@@ -29,8 +29,8 @@ import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const metadata = {
-	title: "Professional UI/UX Design Services | Enhance User Experience",
-	description: "Elevate your digital presence with our expert UI/UX design services, including user research, wireframing, prototyping, and usability testing.​",
+	title: "Professional Virtual Assistant Services",
+	description: "Boost engagement with expert UI/UX design services. We create user-friendly, responsive interfaces that enhance digital experiences.​",
 };
 
 export default function HomeSixLayout({ children }) {

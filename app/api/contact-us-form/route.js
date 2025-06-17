@@ -33,6 +33,20 @@ import {
     htmlContent = replaceMergeTags(data, htmlContent);
     const plainTextContent = stripHTMLTags(htmlContent);
   
+   
+  //  transporter.sendMail({
+  //       ...mailOptions,
+  //       subject: `Contact Us Form Enquiry`,
+  //       text: plainTextContent,
+  //       html: htmlContent,
+  //  }, function(err){
+  //   if (err) {
+  //     console.error(err);
+  //     return NextResponse.json({ error: err.message }, { status: err.status });
+  //   } else {
+  //     return NextResponse.json({ success: true }, { status: 200 });
+  //   }
+  //  });
     try {
       await transporter.sendMail({
         ...mailOptions,

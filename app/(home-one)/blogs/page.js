@@ -3,8 +3,8 @@ import BreadCrumb from "@/components/common/Breadcrumb";
 
 
 export const metadata = {
-	title: "Digital Marketing & SEO Insights | The Online Presence",
-	description: "Stay updated with the latest trends in SEO, digital marketing, web design, and UI/UX. Get expert insights and tips for boosting your online presence.",
+	title: "Digital Marketing & SEO Insights Blog",
+	description: "Stay updated with expert tips on SEO, digital marketing, web design, and UI/UX. Boost your online presence with our latest blog posts.",
 };
 
 function BlogPage() {

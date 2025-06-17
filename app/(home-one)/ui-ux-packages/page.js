@@ -6,8 +6,8 @@ import PricingPlanUIUX from "@/components/pricing/PricingPlanUIUX";
 
 
 export const metadata = {
-  title: "UI/UX Design Packages | Responsive Web & App Design",
-  description: "Explore cutting-edge UI/UX design packages. Responsive, mobile-first, e-commerce, and user-centric web & app design for better engagement.",
+  title: "UI/UX Design with SEO & Web Optimization",
+  description: "Boost user experience with UI/UX, local SEO, and web optimization. Partner with a top digital marketing agency for better online presence.",
 };
 
 function Pricing() {

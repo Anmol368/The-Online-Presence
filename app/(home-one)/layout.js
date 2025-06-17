@@ -31,8 +31,8 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 
 export const metadata = {
-  title: "Expert SEO & Digital Marketing Agency USA | The Online Presence",
-  description: "Best SEO services & digital marketing agency in the USA. Local SEO, PPC, SEM, web design & content optimize your business online today!",
+  title: "Expert SEO & Digital Marketing Agency",
+  description: "Boost your business with our expert SEO, web design, and digital marketing services tailored for startups and small businesses.",
 };
 
 

@@ -6,8 +6,8 @@ import PricingPlanVA from "@/components/pricing/PricingPlanVA";
 
 
 export const metadata = {
-  title: "Virtual Assistant & SEO Packages | Digital Marketing VA",
-  description: "Discover expert Virtual Assistant packages with SEO, content management, digital marketing, and web services. Elevate your business with pro support.",
+  title: "Virtual Assistant & Digital Marketing Packages",
+  description: "Professional virtual assistant packages to boost your online presence and support your business growth with expert digital marketing help.",
 };
 
 function Pricing() {

@@ -7,6 +7,8 @@ import Star2Img from "../../public/images/v1/star2.png";
 import FadeInRight from "../animation/FadeInRight";
 import Field from "../common/Field";
 
+import {toast} from 'react-hot-toast';
+
 
 const initValues = { fullname: "", email: "", url: "", phone: "", type: "", budget: "", message: "",};
 
@@ -42,32 +44,31 @@ function ContactForm() {
 		setSubmitting(true);
 	
 		// send email
-		const response = await fetch('/api/contact-us-form', {
-		  method: 'POST',
-		  headers: {
-			'Content-Type': 'application/json',
-			'Accept': 'application/json',
-			"Access-Control-Allow-Origin" : "*", 
-			"Access-Control-Allow-Credentials" : true 
-		  },
-		  body: JSON.stringify(values),
-		});
-		console.log(response);
-		const { success, error } = await response.json();
+		try {
+		  const response = await fetch("/api/contact-us-form", {
+			method: "POST",
+			headers: {
+			  "Content-Type": "application/json",
+			  Accept: "application/json",
+			},
+			// body: JSON.stringify(values),
+			body: JSON.stringify(values),
+		  });
+	
+		  const { success, error } = await response.json();
 	
 		  if (success) {
 			setState(initState);
 			toast.success("Message Sent Successfully");
-	
 		  } else if (error) {
 			toast.error("Error Sending Message");
-			throw new Error("Error while submitting your inquiry");
-			
 		  }
+		} catch (error) {
+		  toast.error("Error Sending Message");
+		}
 	
-		  setSubmitting(false);
-	
-	  }
+		setSubmitting(false);
+	  };
 
 	return (
 		<div className="section aximo-section-padding">

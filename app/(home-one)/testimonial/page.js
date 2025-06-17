@@ -3,8 +3,8 @@ import Testimonial from "@/components/home-two/testimonial";
 
 
 export const metadata = {
-	title: "Client Testimonials | SEO & Digital Marketing Success",
-	description: "See real client feedback on our SEO, PPC, web design, content marketing, and digital growth services. Proven success stories that build online authority.",
+	title: "Trusted Reviews of Our SEO & Marketing Services",
+	description: "Read client testimonials highlighting our success in SEO, digital marketing, web design, and virtual assistant services. See why clients trust us.",
 };
 
 function TestimonialPage() {

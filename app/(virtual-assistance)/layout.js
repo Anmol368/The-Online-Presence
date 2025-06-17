@@ -28,10 +28,9 @@ import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
 
-
 export const metadata = {
-	title: "Virtual Assistant Services | Task Management & Support",
-	description: "Enhance your business operations with expert virtual assistant services. Task management, scheduling, customer support, and more to streamline your workflow.",
+	title: "Professional Virtual Assistant Services",
+	description: "Streamline your operations with our expert virtual assistant services. From administrative tasks to customer support, we've got you covered.",
 };
 
 

@@ -29,8 +29,8 @@ import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const metadata = {
-	title: "Custom Web Development & Design Services | SEO Optimized",
-	description: "Transform your online presence with our expert web development services. Offering responsive design, e-commerce solutions, and UI/UX optimization.",
+	title: "Custom Web Development & Design Services",
+	description: "Professional web development, responsive design, and website optimization. Trusted web agency delivering custom sites for business growth.",
 };
 
 export default function HomeFourLayout({ children }) {
