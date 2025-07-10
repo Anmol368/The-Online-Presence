@@ -1,5 +1,8 @@
 import { clashGroteskSemibold, inter } from "../fonts";
 
+import Head from "next/head";
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
+
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -33,13 +36,66 @@ import "../../public/css/mobile-nav.css";
 export const metadata = {
   title: "Expert SEO & Digital Marketing Agency",
   description: "Boost your business with our expert SEO, web design, and digital marketing services tailored for startups and small businesses.",
+  verification: {
+    google: "VeqedW8OqeYbdJBZ0hR3hAK44MFwh-wd3NCs2xAMOYI",
+    "google-site-verification": "google83db63e1f4808922.html",
+  },
 };
 
 
 export default function HomeTwoLayout({ children }) {
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    "name": "The Online Presence",
+    "alternativeName": "TOP",
+    "url": "https://www.theonlinepresence.com/",
+    "logo": "",
+    "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1 (206) 210-2030",
+    "contactType": "sales",
+    "areaServed": ["US","GB","CA","IN","AU","NZ"],
+    "availableLanguage": "en"
+  },
+    "sameAs": [
+      "https://x.com/Top_onpresence",
+      "https://www.facebook.com/profile.php?id=61559623079102&mibextid=LQQJ4d",
+      "https://www.instagram.com/the.onlinepresence/",
+      "https://www.linkedin.com/company/the-online-presence/",
+      "https://pin.it/4AygSW783",
+      "https://www.theonlinepresence.com/"
+    ]
+  }
+
   return (
     <html lang="en">
+      <Head>
+        <GoogleAnalytics measurementId="G-CM3G0XGGJJ" />
+        <GoogleTagManager gtmId="GTM-KXP4WWT9" />
+
+      </Head>
       <body className={`${inter.className} ${clashGroteskSemibold.variable}`}>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CM3G0XGGJJ"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-CM3G0XGGJJ');
+          `}
+        </script>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KXP4WWT9"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         
         <ImportBsJS />
         <Header />
@@ -47,6 +103,11 @@ export default function HomeTwoLayout({ children }) {
         <Footer />
         <ToasterM />
         <ScrollToTop />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       </body>
     </html>
   );
