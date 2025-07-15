@@ -5,18 +5,18 @@ import BlogCard from "./BlogCard";
 const blogsData = [
 	{
 		id: crypto.randomUUID(),
-		title: "How to create a dramatic paint color for the home",
+		title: "How to increase your business presence online",
 		content: "At the beginning of a home redesign, the client said she found herself making much safer choices…",
-		category: "Home Decoration",
+		category: "SEO",
 		date: "June 15, 2024",
 		img: Blog1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "The smartest way to create an office in a small space",
+		title: "Increase your knowledge about on-page and off-page SEO",
 		content:
 			"Of course, having a dedicated home office with ample storage, room for supplies, and a proper desk setup...",
-		category: "Office Interior",
+		category: "SEO",
 		date: "June 10, 2024",
 		img: Blog2Img,
 	},
