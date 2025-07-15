@@ -10,7 +10,7 @@ import Shape1Img from "../../../public/images/v2/shape1.png";
 
 function Hero() {
 	return (
-		<div className="aximo-hero-section2 grid">
+		<div className="aximo-hero-section2 hero-bg-gradient">
 			<div className="container aximo-hero-section2-flex">
 			    <FadeInStaggerTwoChildren className="aximo-hero-section2-flex flex-properties" >
 					<HeroContent />

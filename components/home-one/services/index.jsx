@@ -13,7 +13,7 @@ const servicesData = [
 		description:
 			"Tailored home design solutions that reflect the client&apos;s lifestyle preferences, and functional needs.",
 		img: Icon1,
-		bgColor: "cornflower-bg",
+		bgColor: "purple-bg",
 	},
 	{
 		id: crypto.randomUUID(),

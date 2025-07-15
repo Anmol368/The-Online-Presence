@@ -29,8 +29,8 @@ import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const metadata = {
-	title: "Professional Virtual Assistant Services",
-	description: "Boost engagement with expert UI/UX design services. We create user-friendly, responsive interfaces that enhance digital experiences.​",
+	title: "Creative UI/UX Studio | Design That Works",
+	description: "Get custom UI/UX designs that reflect your brand style. Our expert team crafts aesthetic, responsive, and user-first website experiences that convert.​",
 };
 
 export default function HomeSixLayout({ children }) {

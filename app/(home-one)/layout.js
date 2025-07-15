@@ -34,8 +34,8 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 
 export const metadata = {
-  title: "Expert SEO & Digital Marketing Agency",
-  description: "Boost your business with our expert SEO, web design, and digital marketing services tailored for startups and small businesses.",
+  title: "The Online Presence – SEO, Web Design & Marketing Experts",
+  description: "Accelerate your digital growth with The Online Presence. We offer SEO, UI/UX, web development, and marketing services tailored for growing businesses.",
   verification: {
     google: "VeqedW8OqeYbdJBZ0hR3hAK44MFwh-wd3NCs2xAMOYI",
     "google-site-verification": "google83db63e1f4808922.html",

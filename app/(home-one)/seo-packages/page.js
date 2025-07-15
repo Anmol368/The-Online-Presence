@@ -6,8 +6,8 @@ import PricingPlanSEO from "@/components/pricing/PricingPlanSEO";
 
 
 export const metadata = {
-  title: "Affordable SEO & Digital Marketing Packages",
-  description: "Get expert SEO optimization, local SEO, PPC, and web SEO services. Choose the best SEO agency near me for affordable digital growth.",
+  title: "SEO Packages for All Business Types | Ranked #1",
+  description: "Affordable SEO packages with keyword research, backlinks & optimization. Get expert services from the best SEO agency for real growth & visibility.",
 };
 
 function Pricing() {

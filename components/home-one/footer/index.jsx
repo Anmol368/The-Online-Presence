@@ -4,7 +4,7 @@ import MessageForm from "./MessageForm";
 
 function Footer() {
 	return (
-		<footer className="aximo-footer-section dark-bg">
+		<footer className="aximo-footer-section dark-bg4">
 			<div className="container">
 				<div className="aximo-footer-top aximo-section-padding-footer">
 					<div className="row">

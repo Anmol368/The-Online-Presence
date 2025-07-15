@@ -33,7 +33,7 @@ const testimonialsData = [
 ];
 function Testimonials() {
 	return (
-		<div className="blue-bg aximo-section-padding extra-side-margin">
+		<div className="bg-light9 aximo-section-padding extra-side-margin">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-7">

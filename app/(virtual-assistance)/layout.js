@@ -29,8 +29,8 @@ import ScrollToTop from "@/components/common/ScrollToTop";
 
 
 export const metadata = {
-	title: "Professional Virtual Assistant Services",
-	description: "Streamline your operations with our expert virtual assistant services. From administrative tasks to customer support, we've got you covered.",
+	title: "Virtual Assistant Services | Business Support Pros",
+	description: "Boost productivity with expert virtual assistants. From SEO to PPC to content, get scalable digital marketing support tailored to your business goals.",
 };
 
 

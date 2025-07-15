@@ -6,8 +6,8 @@ import PricingPlanWeb from "@/components/pricing/PricingPlanWeb";
 
 
 export const metadata = {
-  title: "Web Design & SEO Packages for Online Growth",
-  description: "Elevate your online presence with our web agency's custom designs, SEO optimization, and digital marketing services tailored for your success.",
+  title: "Web Design & Branding Packages | Top SEO Agency",
+  description: "Choose web development, UI/UX, and branding packages built for growth. Trusted by global brands for SEO, design, and digital marketing success.",
 };
 
 function Pricing() {

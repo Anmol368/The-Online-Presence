@@ -6,8 +6,8 @@ import TwoColumnFaq from "@/components/contact/TwoColumnFaq";
 
 
 export const metadata = {
-	title: "Contact Top Digital Marketing & SEO Agency",
-	description: "Get in touch with our expert team for SEO, digital marketing, web design & virtual assistant services. We’re here to help your business grow.",
+	title: "Contact Us | Speak With Our Digital Experts Today",
+	description: "Have questions or a project in mind? Get in touch for expert help with SEO, web design, or branding. Our team is ready to boost your online presence.",
 };
 
 function ContactUs() {

@@ -6,8 +6,8 @@ import PricingPlanUIUX from "@/components/pricing/PricingPlanUIUX";
 
 
 export const metadata = {
-  title: "UI/UX Design with SEO & Web Optimization",
-  description: "Boost user experience with UI/UX, local SEO, and web optimization. Partner with a top digital marketing agency for better online presence.",
+  title: "UI/UX & Branding Packages | Design Agency 2025",
+  description: "Get UI/UX design, branding & web development in one place. Packages include custom design, visual identity & strategy from top creative experts.",
 };
 
 function Pricing() {

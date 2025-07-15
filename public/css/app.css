@@ -45,6 +45,7 @@
 	--dark-bg: #000000;
 	--dark-bg2: #2c2c2c;
 	--dark-bg3: #0b1040;
+	--dark-bg4: #333446;
 	--blue-bg1: #AFDDFF;
 	--blue-bg2: #9ACBD0;
 	--blue-bg3: #9EC6F3;
@@ -68,8 +69,9 @@
 	--light-bg8: #f8fcdd;
 	--light-bg9: #ECF2FF;
 	--light-bg10: #e3e3e3;
+	--light-bg11: #EAEFEF;
 	--green-bg: #073d30;
-	--green-bg2: #02854c;
+	--green-bg2: #9EBC8A;
 	--cornflower-bg: #d68be7;
 }
 
@@ -1907,6 +1909,9 @@ blockquote {
 .dark-bg3 {
 	background-color: var(--dark-bg3) !important;
 }
+.dark-bg4 {
+	background-color: var(--dark-bg4) !important;
+}
 
 .green-bg {
 	background-color: var(--green-bg) !important;
@@ -1921,6 +1926,10 @@ blockquote {
 
 .cornflower-bg {
 	background-color: var(--cornflower-bg) !important;
+}
+
+.purple-bg {
+	background-color: var(--heading-color8);
 }
 
 .bg-light1 {
@@ -1949,6 +1958,9 @@ blockquote {
 
 .bg-light8 {
 	background-color: var(--light-bg8) !important;
+}
+.bg-light9 {
+	background-color: var(--light-bg11) !important;
 }
 
 .bg-orange {
@@ -3781,6 +3793,28 @@ h1.post__title {
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
   }
+
+  .hero-bg-gradient {
+	background-image: url(../images/hero-bg.jpg);
+	/* background-size: contain; */
+	
+	/* background: linear-gradient(-45deg, #FFFCFB, #FEEBF6, #F6F6F6, #FFF2E0);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh; */
+  }
+  /* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
   
   
 
@@ -6738,7 +6772,7 @@ img.aximo-video-circle {
 .aximo-auto-slider-section {
 	padding: 25px 0;
 	overflow: hidden;
-	background-color: var(--dark-bg);
+	background-color: var(--light-bg10);
 }
 .aximo-auto-slider-item {
 	display: flex;
@@ -6750,7 +6784,7 @@ img.aximo-video-circle {
 	white-space: nowrap;
 	padding: 0 24px;
 	text-transform: uppercase;
-	color: var(--light-color1);
+	color: var(--dark-bg);
 }
 @media (max-width: 767px) {
 	.aximo-auto-slider-item h3 {
