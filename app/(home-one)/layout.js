@@ -51,14 +51,16 @@ export default function HomeTwoLayout({ children }) {
     "name": "The Online Presence",
     "alternativeName": "TOP",
     "url": "https://www.theonlinepresence.com/",
-    "logo": "",
-    "contactPoint": {
+    "logo": "https://www.theonlinepresence.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.08ba1f77.png&w=1920&q=75",
+    "contactPoint": [
+    {
     "@type": "ContactPoint",
     "telephone": "+1 (206) 210-2030",
     "contactType": "sales",
     "areaServed": ["US","GB","CA","IN","AU","NZ"],
     "availableLanguage": "en"
-  },
+  }
+],
     "sameAs": [
       "https://x.com/Top_onpresence",
       "https://www.facebook.com/profile.php?id=61559623079102&mibextid=LQQJ4d",
@@ -68,6 +70,56 @@ export default function HomeTwoLayout({ children }) {
       "https://www.theonlinepresence.com/"
     ]
   }
+
+
+  const jsonLd1 = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "The Online Presence",
+    "image": "https://www.theonlinepresence.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.08ba1f77.png&w=1920&q=75",
+    "url": "https://www.theonlinepresence.com/",
+    "telephone": "+1 (206) 210-2030",
+    "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "11740 SW Lyra Drive",
+    "addressLocality": "Port Saint Lucie",
+    "addressRegion": "FL",
+    "postalCode": "34987",
+    "addressCountry": "US"
+  },
+    "priceRange": "$$",
+    "openingHours": "Mo-Fr 10:00-19:00",
+    "description": "The Online Presence is a full-service digital marketing agency offering SEO, social media marketing, website development, and branding services tailored for startups and growing businesses.",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "27.2730",
+      "longitude": "-80.4423"
+  },
+    "sameAs": [
+      "https://x.com/Top_onpresence",
+      "https://www.facebook.com/profile.php?id=61559623079102&mibextid=LQQJ4d",
+      "https://www.instagram.com/the.onlinepresence/",
+      "https://www.linkedin.com/company/the-online-presence/",
+      "https://pin.it/4AygSW783"
+  ],
+    "areaServed": [
+      "US", "IN", "GB", "CA", "AU", "NZ"
+  ],
+    "hasMap": "https://www.google.com/maps?q=27.2730,-80.4423"
+  }
+
+  const jsonLd2 = {
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "name": "The Online Presence",
+    "url": "https://www.theonlinepresence.com/",
+    "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.theonlinepresence.com/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+    }
+  }
+
 
   return (
     <html lang="en">
@@ -106,7 +158,7 @@ export default function HomeTwoLayout({ children }) {
 
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd, jsonLd1, jsonLd1) }}
       />
       </body>
     </html>
