@@ -74,6 +74,10 @@ export const menuItemsData = [
 		url: "contact-us",
 	},
 	{
+		title: "Pay",
+		url: "/pay",
+	},
+	{
 		title: "More",
 		url: "#",
 		submenu: [
