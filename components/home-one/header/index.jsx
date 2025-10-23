@@ -77,6 +77,7 @@ function Header() {
 							</NavItem> */}
 							<NavItem url="blogs">Blogs</NavItem>
 							<NavItem url="contact-us">Contact</NavItem>
+							<NavItem url="pay">Pay</NavItem>
 							<NavItem dropdown title="More">
 								<Dropdown>
 									<DropdownItem url="portfolio">Portfolio</DropdownItem>

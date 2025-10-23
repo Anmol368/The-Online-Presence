@@ -158,7 +158,7 @@ export default function HomeTwoLayout({ children }) {
 
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd, jsonLd1, jsonLd1) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       </body>
     </html>
