@@ -81,7 +81,7 @@ const PayPage = () => {
             </div>
 
             <PayPalScriptProvider options={{ "client-id": "AQmIOk2YHxrSK4c6f9Yq9kNfLAMOPJtSMVC2JCKKCE5lHgGG1qMZgtB4-pBev_c9yq4QVMdTVRHnm5GG"}}>
-                <div className="" style={{width: '500px', margin: '40px auto', padding: '40px', border: '2px solid gray', borderRadius: '5px'}}>
+                <div className="" style={{width: 'fit-content', margin: '40px auto', padding: '40px', border: '2px solid gray', borderRadius: '5px'}}>
                     <div className="" style={{marginBottom: '20px'}}>
                         {/* <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"></label> */}
                         <input value={price} onChange={(event) => {setPrice(event.target.value);}} type="number" id="amount" className="bg-gray-50 border border-gray-00 text-gray-900 text-lg rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500   md:p-3" placeholder="Enter amount" style={{margin: '0'}}  required />
