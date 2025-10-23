@@ -5,6 +5,8 @@ import React, { useState, useEffect } from "react" ;
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import Link from 'next/link'
 
+import useWindowDimensions from '../../../hooks/useWindowDimensions';
+
 const PayPage = () => {
 
     const [price, setPrice] = useState("");
@@ -12,6 +14,10 @@ const PayPage = () => {
     const [success, setSuccess] = useState(false);
     const [ErrorMessage, setErrorMessage] = useState("");
     const [orderID, setOrderID] = useState(false);
+
+
+    const { width } = useWindowDimensions();
+    const breakpoint = '768px';
 
     
 
@@ -62,7 +68,7 @@ const PayPage = () => {
 
             <div className=''>
 
-                <p className="uppercase underline w-fit text-xs font-medium tracking-widest text-[#071952] inline-block py-2 pl-1 pr-3 rounded-full   sm:text-xs xs:text-center   md:pl-3" style={{textDecoration: 'underline'}}> 
+                <p className="uppercase underline w-fit text-xs font-medium tracking-widest text-[#071952] inline-block py-2 pl-1 pr-3 rounded-full   sm:text-xs xs:text-center   md:pl-3" style={{textDecoration: 'underline', color: '#696FC7'}}> 
                     Affordable & easy payments for you
                 </p>
 
@@ -75,7 +81,7 @@ const PayPage = () => {
             </div>
 
             <PayPalScriptProvider options={{ "client-id": "AQmIOk2YHxrSK4c6f9Yq9kNfLAMOPJtSMVC2JCKKCE5lHgGG1qMZgtB4-pBev_c9yq4QVMdTVRHnm5GG"}}>
-                <div className="" style={{width: '50%', margin: '40px auto', padding: '40px', border: '2px solid gray', borderRadius: '5px'}}>
+                <div className="" style={{width: '500px', margin: '40px auto', padding: '40px', border: '2px solid gray', borderRadius: '5px'}}>
                     <div className="" style={{marginBottom: '20px'}}>
                         {/* <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"></label> */}
                         <input value={price} onChange={(event) => {setPrice(event.target.value);}} type="number" id="amount" className="bg-gray-50 border border-gray-00 text-gray-900 text-lg rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500   md:p-3" placeholder="Enter amount" style={{margin: '0'}}  required />
