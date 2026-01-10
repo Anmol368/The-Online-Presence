@@ -29,8 +29,8 @@ import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const metadata = {
-  title: "#1 SEO Agency for Growth | Boost Rankings & Traffic",
-  description: "Rank higher, drive traffic, and grow your brand with expert SEO. We help businesses dominate search results and convert visitors into customers.",
+  title: "SEO Agency Florida | Local & Technical SEO Services",
+  description: "Florida SEO company with proven results. Local SEO services, technical optimization & Google ranking strategies. Tailored for small businesses to global brands.",
 };
 
 export default function HomeThreeLayout({ children }) {

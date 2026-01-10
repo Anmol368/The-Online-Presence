@@ -29,8 +29,8 @@ import "../../public/css/mobile-nav.css";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
 export const metadata = {
-	title: "Website Development Studio | Custom Web Solutions",
-	description: "Build stunning, responsive websites with our expert team. We create custom web solutions to help your business grow, engage users, and drive results.",
+	title: "Website Design Company Florida | UI/UX Design Services",
+	description: "Best digital marketing agency in Florida offering UI/UX design services. Custom web design, responsive layouts & user-first experiences. Free consultation.",
 };
 
 export default function HomeFourLayout({ children }) {

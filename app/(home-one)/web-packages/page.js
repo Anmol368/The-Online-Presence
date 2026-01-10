@@ -6,8 +6,8 @@ import PricingPlanWeb from "@/components/pricing/PricingPlanWeb";
 
 
 export const metadata = {
-  title: "Web Design & Branding Packages | Top SEO Agency",
-  description: "Choose web development, UI/UX, and branding packages built for growth. Trusted by global brands for SEO, design, and digital marketing success.",
+  title: "Affordable Web Design Packages Florida | Website Development",
+  description: "rofessional web development agency in Orlando, Florida. Custom website design, WordPress development & ecommerce solutions. Flexible packages starting at $199.",
 };
 
 function Pricing() {

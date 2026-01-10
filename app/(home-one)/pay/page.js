@@ -3,8 +3,8 @@ import BreadCrumb from "@/components/common/Breadcrumb";
 
 
 export const metadata = {
-	title: "Secure Payment | Best SEO & Digital Marketing Agency",
-	description: "Make a secure payment for SEO, PPC & digital marketing services. Work with the best SEO agency, local SEO experts & top online marketing specialists today",
+	title: "Secure Payment | Best SEO & Digital Marketing Agency Florida",
+	description: "Make secure payment for digital marketing services Florida. Best SEO company, PPC management, web design & social media marketing. Affordable & easy payments.",
 };
 
 function Pay() {

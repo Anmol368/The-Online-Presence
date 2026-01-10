@@ -6,8 +6,8 @@ import PricingPlanVA from "@/components/pricing/PricingPlanVA";
 
 
 export const metadata = {
-  title: "Virtual Assistant & Design Packages | 2025 Deals",
-  description: "Hire expert virtual assistants for admin, email, design & more. Scalable support packages for entrepreneurs, agencies & remote teams worldwide.",
+  title: "The Online Presence: SEO, Web Design & Marketing Services",
+  description: "Affordable virtual assistant services in Florida Expert admin, email & design support for remote teams Professional VA packages starting at $149/month. Hire now.",
 };
 
 function Pricing() {

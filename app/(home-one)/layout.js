@@ -34,8 +34,8 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 
 export const metadata = {
-  title: "The Online Presence – SEO, Web Design & Marketing Experts",
-  description: "Accelerate your digital growth with The Online Presence. We offer SEO, UI/UX, web development, and marketing services tailored for growing businesses.",
+  title: "The Online Presence | SEO, PPC & Branding Agency Florida",
+  description: "The Online Presence provides SEO services, local SEO, PPC management, ecommerce marketing, social media marketing, website development and branding in Florida.",
   verification: {
     google: "VeqedW8OqeYbdJBZ0hR3hAK44MFwh-wd3NCs2xAMOYI",
     "google-site-verification": "google83db63e1f4808922.html",

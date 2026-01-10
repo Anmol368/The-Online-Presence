@@ -3,8 +3,8 @@ import PortfolioList from "@/components/portfolio/two/PortfolioList";
 
 
 export const metadata = {
-	title: "Our Work | Digital Marketing & Web Design Portfolio",
-	description: "Explore our portfolio of SEO, branding, and website projects. See how we’ve helped businesses grow their online presence with impactful strategies.",
+	title: "The Online Presence: SEO, Web Design & Marketing Services",
+	description: "Explore our portfolio showcasing SEO services, PPC campaigns, ecommerce website development, social media marketing, branding, lead generation and more, Florida.",
 };
 
 function PortfolioTwoColumn() {

@@ -3,8 +3,8 @@ import BreadCrumb from "@/components/common/Breadcrumb";
 
 
 export const metadata = {
-	title: "Digital Marketing Blog | SEO, PPC & Web Tips",
-	description: "Explore expert insights on SEO, PPC, web design, and more. Stay updated with actionable digital marketing tips to grow your online presence.",
+	title: "Marketing Blog | SEO, PPC, Social Media & Web Strategy",
+	description: "Stay ahead with actionable digital marketing advice. Learn SEO best practices, PPC tactics, UI/UX guidance, content growth strategies, and more on our blog.",
 };
 
 function BlogPage() {

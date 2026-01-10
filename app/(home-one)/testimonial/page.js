@@ -3,8 +3,8 @@ import Testimonial from "@/components/home-two/testimonial";
 
 
 export const metadata = {
-	title: "What Clients Say | Trusted SEO & Web Experts",
-	description: "See how our SEO and web services transformed businesses. Real reviews from satisfied clients who trust us for performance, rankings, and online growth.",
+	title: "Florida Digital Marketing Testimonials | SEO, PPC & Branding",
+	description: "See why clients choose Florida top digital marketing agency for SEO services, local SEO, Google Ads, social media, ecommerce development & ROI-driven campaigns.",
 };
 
 function TestimonialPage() {

@@ -6,8 +6,8 @@ import PricingPlanUIUX from "@/components/pricing/PricingPlanUIUX";
 
 
 export const metadata = {
-  title: "UI/UX & Branding Packages | Design Agency 2025",
-  description: "Get UI/UX design, branding & web development in one place. Packages include custom design, visual identity & strategy from top creative experts.",
+  title: "Affordable UI/UX Design Packages Florida | Design Services",
+  description: "Florida branding agency offering UI/UX design services, brand identity, visual design & user testing. Custom packages for web & mobile interfaces. Get a quote.",
 };
 
 function Pricing() {

@@ -6,8 +6,8 @@ import PricingPlanSEO from "@/components/pricing/PricingPlanSEO";
 
 
 export const metadata = {
-  title: "SEO Packages for All Business Types | Ranked #1",
-  description: "Affordable SEO packages with keyword research, backlinks & optimization. Get expert services from the best SEO agency for real growth & visibility.",
+  title: "SEO Packages Florida | Affordable SEO Services & Pricing",
+  description: "SEO company Florida offering affordable packages. Local SEO, technical SEO, ecommerce SEO & Google ranking. Best digital marketing agency. Free 30-day trial.",
 };
 
 function Pricing() {
